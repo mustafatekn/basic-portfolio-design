@@ -1,0 +1,62 @@
+#aboutme-img {
+  max-width: 450px;
+}
+
+#header-img {
+  max-width: 520px;
+}
+
+#aboutme-description, #header-info, #works-description{
+  font-size: 1.35rem;
+}
+
+@media only screen and (min-width:1400px){
+    #contactForm{
+        width: 80%!important;
+    }
+}
+@media only screen and (max-width: 1399px) {
+  #aboutme-img {
+    max-width: 440px;
+  }
+
+  #aboutme-description, #works-description {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  #aboutme-img {
+    max-width: 360px;
+  }
+
+  #aboutme-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #aboutme-img,
+  #header-img {
+    max-width: 450px;
+  }
+
+  #aboutme-description {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #aboutme-img,
+  #header-img {
+    max-width: 375px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #aboutme-img,
+  #header-img {
+    max-width: 300px;
+  }
+}
